@@ -14,10 +14,10 @@ public class Score {
 	
 	private Double value;
 	
-	private Score() {
+	
+	public Score() {
 	}
 
-	
 	// Associar filmes e usuários com o Score
 	public void setMovie(Movie movie) {
 		id.setMovie(movie);
